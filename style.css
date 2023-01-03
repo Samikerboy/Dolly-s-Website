@@ -78,3 +78,27 @@ body {
     font-size: 40px;
     margin-bottom: 0;
 }
+
+.advertisment {
+    height: 130px;
+    background-color: darkslategray;
+    width: 1300px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.advertisment .left .updated {
+    color: white;
+    font-weight: 600;
+}
+.advertisment .left p {
+    color: lightgray;
+}
+.advertisment .right button {
+    padding: 10px 20px;
+    border-radius: 11px;
+    background-color: rgb(150, 150, 150);
+    color: white;
+    font-weight: bold;
+}
