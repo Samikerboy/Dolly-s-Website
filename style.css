@@ -47,3 +47,21 @@ body {
     color: white;
     font-weight: bold;
 }
+
+.Dolly-Images {
+    display: flex;
+    flex-direction: column;
+}
+.Dolly-Images h2 {
+    text-align: center;
+}
+.Dolly-Images .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.Dolly-Images .images img {
+    border: 5px solid darkslategray;
+    border-radius: 10px;
+}
